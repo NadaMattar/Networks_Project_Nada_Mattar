@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".views.activities.RegisterActivity"
+    android:background="#FFF0D9"
+    android:fitsSystemWindows="true">
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:id="@+id/reg_linear_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:scrollbars="vertical"
+        >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/logo_book"/>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="30dp"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+            >
+
+            <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/reg_et_email_address"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="@string/et_email"
+                android:drawableStart="@drawable/ic_email"
+                android:drawablePadding="10dp"
+                android:inputType="textEmailAddress" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="5dp"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+            tools:ignore="DuplicateIds"
+            >
+            <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/reg_et_password"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="@string/et_pass"
+                android:drawableStart="@drawable/ic_lock_password"
+                android:drawablePadding="10dp"
+                android:inputType="textPassword"
+                android:password="true" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/reg_btn_create"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/btn_save"
+            android:textSize="15sp"
+            android:backgroundTint="@color/brown"
+            android:gravity="center"
+            android:textColor="#E1FFFFFF"
+            android:layout_marginTop="10dp"
+            >
+        </com.google.android.material.button.MaterialButton>
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</ScrollView>
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

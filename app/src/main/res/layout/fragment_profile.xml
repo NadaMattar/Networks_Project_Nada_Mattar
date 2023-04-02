@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#FADEB6"
+    android:paddingTop="70dp"
+    tools:context=".views.fragments.ProfileFragment">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:layout_margin="20dp"
+            app:cardBackgroundColor="#DAB071"
+            app:cardCornerRadius="15dp"
+            app:cardElevation="20dp"
+            >
+            <ImageView
+                android:id="@+id/edit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_edit"
+                android:layout_margin="8dp"
+                />
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="30dp"
+
+                >
+
+                <ImageView
+                    android:id="@+id/img_user_fragment"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_gravity="center_horizontal"
+                    />
+
+                <EditText
+                    android:id="@+id/user_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_margin="10dp"
+                    android:textStyle="bold"
+                    android:hint="Your Name"
+                    android:textSize="25sp"
+                    android:backgroundTint="@color/brown"
+                    android:textColor="@color/brown"
+                    android:padding="10dp"
+                    android:inputType="text"
+                    />
+
+                <EditText
+                    android:id="@+id/country"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="5dp"
+                    android:textStyle="bold"
+                    android:hint="Country"
+                    android:textSize="18sp"
+                    android:backgroundTint="@color/brown"
+                    android:textColor="@color/brown"
+                    android:padding="10dp"
+                    android:inputType="text"
+                    />
+
+                <EditText
+                    android:id="@+id/age"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="5dp"
+                    android:textStyle="bold"
+                    android:hint="Your Age"
+                    android:textSize="18sp"
+                    android:backgroundTint="@color/brown"
+                    android:textColor="@color/brown"
+                    android:padding="10dp"
+                    android:inputType="number"
+                    />
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginBottom="20dp"
+                    >
+                    <TextView
+                        android:id="@+id/change_password"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:textSize="15sp"
+                        android:textColor="@color/brown"
+                        android:visibility="visible"
+                        android:text="Change Password"
+                        android:layout_margin="10dp"
+                        />
+
+                    <TextView
+                        android:id="@+id/logout"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:textSize="18sp"
+                        android:textColor="@color/brown_"
+                        android:visibility="visible"
+                        android:text="Logut"
+                        android:layout_margin="10dp"
+                        />
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/done"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_done"
+                android:layout_gravity="bottom|right"
+                android:layout_margin="12dp"
+                android:visibility="invisible"
+                />
+
+
+
+        </androidx.cardview.widget.CardView>
+
+    </androidx.core.widget.NestedScrollView>
+
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

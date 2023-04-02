@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">مدينة القراءة</string>
+
+    <string name="et_full_name">الاسم كاملًا</string>
+    <string name="et_email">عنوان البريد الإلكتروني </string>
+    <string name="et_user_name">اسم المستخدم </string>
+    <string name="et_pass"> كلمة المرور</string>
+    <string name="er_re_password">تأكيد كلمة المرور</string>
+    <string name="rb_male">ذكر</string>
+    <string name="rb_female">أنثى</string>
+    <string name="btn_save">حفظ </string>
+    <string name="tv_Welcome">أهلًا بِك في لعبة سلسة الأرقام </string>
+    <string name="btn_login">دخول </string>
+    <string name="btn_register">تسجيل جديد </string>
+    <string name="cb_remember_me">تذكّرني </string>
+    <string name="error_enter_user_name">يجب عليك إدخال اسم المستخدم</string>
+    <string name="error_enter_email">يجب عليك إدخال البريد الالكتروني</string>
+    <string name="error_enter_password">يجب عليك إدخال كلمة المرور</string>
+
+</resources>

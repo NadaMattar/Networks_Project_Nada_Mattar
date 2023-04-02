@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/home"
+        android:title="Home"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_home"
+        />
+
+    <item
+        android:id="@+id/books"
+        android:title="My Books"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_menu_book"
+        />
+
+    <item
+        android:id="@+id/holder"
+        android:title=""
+        app:showAsAction="ifRoom"
+        android:enabled="false"
+        />
+
+    <item
+        android:id="@+id/book_mark"
+        android:title="Book Mark"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_bookmark"
+        />
+
+    <item
+        android:id="@+id/account"
+        android:title="Account"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_account"
+        />
+</menu>

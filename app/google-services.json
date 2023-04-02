@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "172453236510",
+    "project_id": "final-project-nada",
+    "storage_bucket": "final-project-nada.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:172453236510:android:9286d90767fbcb8428030f",
+        "android_client_info": {
+          "package_name": "bn.nadamattar.libraryprojectnada"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "172453236510-ffspbucjcj39bmes9lr16e901825e0hc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAwi45k4muBSeM8ED_AKPnfxedPXVUPkZA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "172453236510-ffspbucjcj39bmes9lr16e901825e0hc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

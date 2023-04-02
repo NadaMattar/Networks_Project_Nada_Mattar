@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Reading City</string>
+    <string name="et_full_name">Full Name</string>
+    <string name="et_email">Email Address</string>
+    <string name="et_user_name">User Name</string>
+    <string name="et_pass">Password </string>
+    <string name="er_re_password">Re_Password</string>
+    <string name="rb_male">Male</string>
+    <string name="rb_female">Female</string>
+    <string name="btn_save">Create Account</string>
+    <string name="tv_Welcome">Welcome to the number series game</string>
+    <string name="btn_login">Login </string>
+    <string name="btn_register">Register </string>
+    <string name="cb_remember_me">Remember me </string>
+    <string name="error_enter_user_name">You must enter the username</string>
+    <string name="error_enter_email">You must enter the email</string>
+    <string name="error_enter_password">You must enter the password</string>
+
+</resources>
